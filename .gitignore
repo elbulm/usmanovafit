@@ -1,0 +1,6 @@
+# Local zip archives (site exports, asset bundles) — not part of the site
+*.zip
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db

@@ -1,0 +1,3 @@
+# Files here are NOT uploaded as Cloudflare static assets.
+# Exclude local zip archives (some exceed Cloudflare's 25 MB/file limit).
+*.zip
