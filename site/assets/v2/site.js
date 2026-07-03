@@ -13,6 +13,18 @@
       if (el.offsetHeight > window.innerHeight * 0.85) { el.classList.add('in'); }
       else { io.observe(el); }
     });
+    // safety net: if the observer hasn't revealed on-screen items shortly after
+    // load (some mobile browsers fire it late/not at all), reveal them manually
+    // so content is never stuck invisible. Below-the-fold items still animate.
+    var revealVisible = function () {
+      rv.forEach(function (el) {
+        if (!el.classList.contains('in') && el.getBoundingClientRect().top < window.innerHeight * 0.95) {
+          el.classList.add('in'); io.unobserve(el);
+        }
+      });
+    };
+    window.addEventListener('load', function () { setTimeout(revealVisible, 350); });
+    setTimeout(revealVisible, 1600);
   } else {
     rv.forEach(function (el) { el.classList.add('in'); });
   }

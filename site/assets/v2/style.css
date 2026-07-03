@@ -318,3 +318,45 @@ img{display:block; max-width:100%}
 .modal__success p{color:var(--ink-soft); font-weight:500; margin-bottom:1.4rem}
 .modal__success .btn{margin-inline:auto}
 @media(prefers-reduced-motion:reduce){ .modal__dialog,.modal__backdrop{transition:none} .modal__close:hover{transform:none} }
+
+/* ================= MOBILE TUNING (≤600px / ≤380px) ================= */
+@media (max-width:600px){
+  /* Hero: shrink oversized display type so lines fit and never clip */
+  .hero__title{font-size:clamp(2rem, 8.5vw, 2.9rem)}
+  .hero__title .line{overflow:visible}          /* wrapped lines were being cut off */
+  .offer-hero h1{font-size:clamp(1.9rem, 7.8vw, 3rem)}
+  .manifesto__big{font-size:clamp(1.7rem, 7.4vw, 2.4rem)}
+  .final h2{font-size:clamp(1.9rem, 8vw, 2.8rem)}
+  .sec-head h2, .about h2, .faq h2, .legal__head h1{font-size:clamp(1.7rem, 7vw, 2.6rem)}
+
+  /* Hero media: keep the cutout photo inside the viewport */
+  .hero__ph{width:min(100%, 420px)}
+  /* The floating "13 программ" tag clipped past the screen edge — pin it inside, bottom-left */
+  .hero__tag{right:auto; left:0; top:auto; bottom:5%; font-size:.8rem; padding:.55rem .8rem}
+  .hero__tag b{font-size:.95rem}
+
+  /* Stats: a bit more breathing room when they wrap */
+  .hero__stats{gap:1.1rem 1.6rem}
+  .stat{min-width:8rem}
+
+  /* Countdown: let the four cells share the row instead of overflowing */
+  .cd{gap:.4rem; width:100%}
+  .cd__cell{min-width:0; flex:1; padding:.6rem .25rem}
+
+  /* Program cards: comfortable single-column reading on the flagship tile */
+  .pcard--flag h3{font-size:1.5rem}
+
+  /* Section padding a touch tighter on small screens */
+  .manifesto, .about, .programs, .faq, .final, .tariffs{padding-block:clamp(2.6rem,10vw,3.5rem)}
+
+  /* Slightly stronger marquee tilt reads better on narrow screens */
+  .marq{transform:rotate(-2deg)}
+}
+
+@media (max-width:380px){
+  .hero__title{font-size:1.8rem}
+  .offer-hero h1{font-size:1.75rem}
+  .brand{font-size:1.05rem}
+  /* keep the top-bar CTA from crowding the brand */
+  .topbar__cta .btn{padding:.6em 1em; font-size:.86rem}
+}
