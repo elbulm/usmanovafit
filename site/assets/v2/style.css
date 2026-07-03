@@ -368,3 +368,42 @@ img{display:block; max-width:100%}
   /* keep the top-bar CTA from crowding the brand */
   .topbar__cta .btn{padding:.6em 1em; font-size:.86rem}
 }
+
+/* ================= RESULTS ================= */
+.results{background:var(--bone-2); padding-block:clamp(3rem,7vw,6rem)}
+.results__title{font-size:clamp(1.9rem,2vw + 1.4rem,3.4rem); max-width:20ch; margin-top:.8rem}
+.results__lead{color:var(--ink-soft); max-width:46ch; margin-top:1rem; font-weight:500}
+.results__row{margin-top:clamp(2rem,4vw,3rem); display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(170px,1fr)); gap:clamp(1.5rem,3vw,2.5rem);
+  padding-top:1.8rem; border-top:1px solid var(--line)}
+.rstat__n{font-family:"Unbounded"; font-weight:800; font-size:clamp(2rem,1rem + 2vw,3rem); line-height:1}
+.rstat__l{margin-top:.5rem; color:var(--ink-soft); font-weight:600; font-size:.92rem}
+.results__live{margin-top:clamp(1.8rem,3vw,2.4rem); display:inline-flex; align-items:center; gap:.6rem;
+  font-weight:600; font-size:.9rem; color:var(--ink-soft)}
+.results__live .pulse{width:.6rem; height:.6rem; border-radius:50%; background:var(--flame);
+  box-shadow:0 0 0 0 oklch(0.635 0.205 34 / .5); animation:pulse 2s ease-out infinite}
+@keyframes pulse{70%{box-shadow:0 0 0 8px oklch(0.635 0.205 34 / 0)}100%{box-shadow:0 0 0 0 oklch(0.635 0.205 34 / 0)}}
+@media(prefers-reduced-motion:reduce){ .results__live .pulse{animation:none} }
+
+/* ================= WARRANTY (guarantees) ================= */
+.warranty{background:var(--espresso); color:var(--bone); padding-block:clamp(3.5rem,8vw,7rem)}
+.warranty h2{font-size:clamp(1.9rem,2vw + 1.4rem,3.4rem); color:var(--bone); max-width:20ch}
+.warranty__lead{color:oklch(0.965 0.013 85 / .8); max-width:48ch; margin-top:1rem;
+  margin-bottom:clamp(2.2rem,4vw,3.4rem); font-weight:500}
+.warranty__grid{display:grid; grid-template-columns:repeat(auto-fit,minmax(270px,1fr)); gap:clamp(1.7rem,3vw,2.8rem)}
+.warranty__item{display:flex; gap:.95rem; align-items:flex-start}
+.warranty__ico{width:2.3rem; height:2.3rem; border-radius:50%; flex:none;
+  background:oklch(0.635 0.205 34 / .2); display:flex; align-items:center; justify-content:center}
+.warranty__item h3{font-family:"Unbounded"; font-weight:600; font-size:1.06rem; color:var(--bone); margin-bottom:.4rem}
+.warranty__item p{color:oklch(0.965 0.013 85 / .72); font-size:.92rem; font-weight:500; line-height:1.55}
+
+/* ================= FOOTER CONTACTS ================= */
+.foot__contacts{display:flex; flex-wrap:wrap; justify-content:space-between; gap:1.6rem 2.5rem;
+  padding-top:1.7rem; margin-bottom:1.6rem; border-top:1px solid oklch(0.965 0.013 85 / .14)}
+.foot__col{display:flex; flex-direction:column; gap:.45rem}
+.foot__label{font-size:.68rem; font-weight:800; letter-spacing:.14em; text-transform:uppercase;
+  color:oklch(0.965 0.013 85 / .5); margin-bottom:.35rem}
+.foot__col a{color:oklch(0.965 0.013 85 / .85); text-decoration:none; font-weight:600; font-size:.95rem}
+.foot__col a:hover{color:var(--bone)}
+.foot__company{font-size:.82rem; color:oklch(0.965 0.013 85 / .6); line-height:1.65; max-width:42ch; text-align:right}
+@media(max-width:600px){ .foot__company{text-align:left} .foot__contacts{gap:1.4rem} }
