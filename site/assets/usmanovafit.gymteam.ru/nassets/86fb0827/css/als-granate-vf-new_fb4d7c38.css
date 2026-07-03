@@ -1,0 +1,259 @@
+@font-face {
+    font-family: 'ALS Granate VF';
+    src: url('../new-fonts/100/ALSGranate-Thin.eot');
+    src: url('../new-fonts/100/ALSGranate-Thin.eot')
+    format('embedded-opentype'),
+    url('../new-fonts/100/ALSGranate-Thin.woff2')
+    format('woff2'),
+    url('../new-fonts/100/ALSGranate-Thin.woff')
+    format('woff'),
+    url('../new-fonts/100/ALSGranate-Thin.ttf')
+    format('truetype'),
+    url('../new-fonts/100/ALSGranate-Thin.svg')
+    format('svg');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ALS Granate VF';
+    src: url('../new-fonts/100-it/ALSGranate-ThinItalic.eot');
+    src: url('../new-fonts/100-it/ALSGranate-ThinItalic.eot')
+    format('embedded-opentype'),
+    url('../new-fonts/100-it/ALSGranate-ThinItalic.woff2')
+    format('woff2'),
+    url('../new-fonts/100-it/ALSGranate-ThinItalic.woff')
+    format('woff'),
+    url('../new-fonts/100-it/ALSGranate-ThinItalic.ttf')
+    format('truetype'),
+    url('../new-fonts/100-it/ALSGranate-ThinItalic.svg')
+    format('svg');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'ALS Granate VF';
+    src: url('../new-fonts/200/ALSGranate-Light.eot');
+    src: url('../new-fonts/200/ALSGranate-Light.eot')
+    format('embedded-opentype'),
+    url('../new-fonts/200/ALSGranate-Light.woff2')
+    format('woff2'),
+    url('../new-fonts/200/ALSGranate-Light.woff')
+    format('woff'),
+    url('../new-fonts/200/ALSGranate-Light.ttf')
+    format('truetype'),
+    url('../new-fonts/200/ALSGranate-Light.svg')
+    format('svg');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ALS Granate VF';
+    src: url('../new-fonts/200-it/ALSGranate-LightItalic.eot');
+    src: url('../new-fonts/200-it/ALSGranate-LightItalic.eot')
+    format('embedded-opentype'),
+    url('../new-fonts/200-it/ALSGranate-LightItalic.woff2')
+    format('woff2'),
+    url('../new-fonts/200-it/ALSGranate-LightItalic.woff')
+    format('woff'),
+    url('../new-fonts/200-it/ALSGranate-LightItalic.ttf')
+    format('truetype'),
+    url('../new-fonts/200-it/ALSGranate-LightItalic.svg')
+    format('svg');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'ALS Granate VF';
+    src: url('../new-fonts/400/ALSGranate-Regular.eot');
+    src: url('../new-fonts/400/ALSGranate-Regular.eot')
+    format('embedded-opentype'),
+    url('../new-fonts/400/ALSGranate-Regular.woff2')
+    format('woff2'),
+    url('../new-fonts/400/ALSGranate-Regular.woff')
+    format('woff'),
+    url('../new-fonts/400/ALSGranate-Regular.ttf')
+    format('truetype'),
+    url('../new-fonts/400/ALSGranate-Regular.svg')
+    format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ALS Granate VF';
+    src: url('../new-fonts/400-it/ALSGranate-RegularItalic.eot');
+    src: url('../new-fonts/400-it/ALSGranate-RegularItalic.eot')
+    format('embedded-opentype'),
+    url('../new-fonts/400-it/ALSGranate-RegularItalic.woff2')
+    format('woff2'),
+    url('../new-fonts/400-it/ALSGranate-RegularItalic.woff')
+    format('woff'),
+    url('../new-fonts/400-it/ALSGranate-RegularItalic.ttf')
+    format('truetype'),
+    url('../new-fonts/400-it/ALSGranate-RegularItalic.svg')
+    format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'als-font-80-book';
+    src: url('../new-fonts/400-book/ALSGranate-Book.eot');
+    src: url('../new-fonts/400-book/ALSGranate-Book.eot')
+    format('embedded-opentype'),
+    url('../new-fonts/400-book/ALSGranate-Book.woff2')
+    format('woff2'),
+    url('../new-fonts/400-book/ALSGranate-Book.woff')
+    format('woff'),
+    url('../new-fonts/400-book/ALSGranate-Book.ttf')
+    format('truetype'),
+    url('../new-fonts/400-book/ALSGranate-Book.svg')
+    format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'als-font-80-book-it';
+    src: url('../new-fonts/400-book-it/ALSGranate-BookItalic.eot');
+    src: url('../new-fonts/400-book-it/ALSGranate-BookItalic.eot')
+    format('embedded-opentype'),
+    url('../new-fonts/400-book-it/ALSGranate-BookItalic.woff2')
+    format('woff2'),
+    url('../new-fonts/400-book-it/ALSGranate-BookItalic.woff')
+    format('woff'),
+    url('../new-fonts/400-book-it/ALSGranate-BookItalic.ttf')
+    format('truetype'),
+    url('../new-fonts/400-book-it/ALSGranate-BookItalic.svg')
+    format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'ALS Granate VF';
+    src: url('../new-fonts/500/ALSGranate-Medium.eot');
+    src: url('../new-fonts/500/ALSGranate-Medium.eot')
+    format('embedded-opentype'),
+    url('../new-fonts/500/ALSGranate-Medium.woff2')
+    format('woff2'),
+    url('../new-fonts/500/ALSGranate-Medium.woff')
+    format('woff'),
+    url('../new-fonts/500/ALSGranate-Medium.ttf')
+    format('truetype'),
+    url('../new-fonts/500/ALSGranate-Medium.svg')
+    format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ALS Granate VF';
+    src: url('../new-fonts/500-it/ALSGranate-MediumItalic.eot');
+    src: url('../new-fonts/500-it/ALSGranate-MediumItalic.eot')
+    format('embedded-opentype'),
+    url('../new-fonts/500-it/ALSGranate-MediumItalic.woff2')
+    format('woff2'),
+    url('../new-fonts/500-it/ALSGranate-MediumItalic.woff')
+    format('woff'),
+    url('../new-fonts/500-it/ALSGranate-MediumItalic.ttf')
+    format('truetype'),
+    url('../new-fonts/500-it/ALSGranate-MediumItalic.svg')
+    format('svg');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'ALS Granate VF';
+    src: url('../new-fonts/700/ALSGranate-Bold.eot');
+    src: url('../new-fonts/700/ALSGranate-Bold.eot')
+    format('embedded-opentype'),
+    url('../new-fonts/700/ALSGranate-Bold.woff2')
+    format('woff2'),
+    url('../new-fonts/700/ALSGranate-Bold.woff')
+    format('woff'),
+    url('../new-fonts/700/ALSGranate-Bold.ttf')
+    format('truetype'),
+    url('../new-fonts/700/ALSGranate-Bold.svg')
+    format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ALS Granate VF';
+    src: url('../new-fonts/700-it/ALSGranate-BoldItalic.eot');
+    src: url('../new-fonts/700-it/ALSGranate-BoldItalic.eot')
+    format('embedded-opentype'),
+    url('../new-fonts/700-it/ALSGranate-BoldItalic.woff2')
+    format('woff2'),
+    url('../new-fonts/700-it/ALSGranate-BoldItalic.woff')
+    format('woff'),
+    url('../new-fonts/700-it/ALSGranate-BoldItalic.ttf')
+    format('truetype'),
+    url('../new-fonts/700-it/ALSGranate-BoldItalic.svg')
+    format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'ALS Granate VF';
+    src: url('../new-fonts/800/ALSGranate-Black.eot');
+    src: url('../new-fonts/800/ALSGranate-Black.eot')
+    format('embedded-opentype'),
+    url('../new-fonts/800/ALSGranate-Black.woff2')
+    format('woff2'),
+    url('../new-fonts/800/ALSGranate-Black.woff')
+    format('woff'),
+    url('../new-fonts/800/ALSGranate-Black.ttf')
+    format('truetype'),
+    url('../new-fonts/800/ALSGranate-Black.svg')
+    format('svg');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ALS Granate VF';
+    src: url('../new-fonts/800-it/ALSGranate-BlackItalic.eot');
+    src: url('../new-fonts/800-it/ALSGranate-BlackItalic.eot')
+    format('embedded-opentype'),
+    url('../new-fonts/800-it/ALSGranate-BlackItalic.woff2')
+    format('woff2'),
+    url('../new-fonts/800-it/ALSGranate-BlackItalic.woff')
+    format('woff'),
+    url('../new-fonts/800-it/ALSGranate-BlackItalic.ttf')
+    format('truetype'),
+    url('../new-fonts/800-it/ALSGranate-BlackItalic.svg')
+    format('svg');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'als-font-80-variable';
+    src: url('../new-fonts/ALS_Granate_VF_0.9.ttf');
+}
+
+@font-face {
+    font-family: 'ALS Hauss Mono VF';
+    src: url('../new-fonts/als-hauss-mono/ALSHaussMono-Regular.eot');
+    src: url('../new-fonts/als-hauss-mono/ALSHaussMono-Regular.eot')
+    format('embedded-opentype'),
+    url('../new-fonts/als-hauss-mono/ALSHaussMono-Regular.woff2')
+    format('woff2'),
+    url('../new-fonts/als-hauss-mono/ALSHaussMono-Regular.woff')
+    format('woff'),
+    url('../new-fonts/als-hauss-mono/ALSHaussMono-Regular.ttf')
+    format('truetype'),
+    url('../new-fonts/als-hauss-mono/ALSHaussMono-Regular.svg')
+    format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
