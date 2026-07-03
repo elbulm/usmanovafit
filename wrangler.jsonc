@@ -1,0 +1,10 @@
+{
+  // Static-assets-only Worker: serves the mirrored/redesigned site in ./site
+  "name": "usmanovafit",
+  "compatibility_date": "2025-06-01",
+  "assets": {
+    "directory": "./site",
+    // index.html is served at "/", and unknown paths fall back to a 404
+    "not_found_handling": "404-page"
+  }
+}
