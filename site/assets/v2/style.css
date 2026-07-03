@@ -321,6 +321,9 @@ img{display:block; max-width:100%}
 
 /* ================= MOBILE TUNING (≤600px / ≤380px) ================= */
 @media (max-width:600px){
+  /* Push the top bar below the floating "Версии и правки" menu so it doesn't cover the logo */
+  .topbar{padding-top:4.2rem}
+
   /* Hero: shrink oversized display type so lines fit and never clip */
   .hero__title{font-size:clamp(2rem, 8.5vw, 2.9rem)}
   .hero__title .line{overflow:visible}          /* wrapped lines were being cut off */
