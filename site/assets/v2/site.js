@@ -29,6 +29,20 @@
     rv.forEach(function (el) { el.classList.add('in'); });
   }
 
+  /* results carousel: prev/next scroll one slide (touch swipe works natively) */
+  document.querySelectorAll('.carousel').forEach(function (c) {
+    var track = c.querySelector('.carousel__track');
+    if (!track) return;
+    c.querySelectorAll('.carousel__btn').forEach(function (b) {
+      b.addEventListener('click', function () {
+        var slide = track.querySelector('.carousel__slide');
+        var gap = parseFloat(getComputedStyle(track).columnGap || getComputedStyle(track).gap) || 16;
+        var step = slide ? slide.getBoundingClientRect().width + gap : track.clientWidth * 0.8;
+        track.scrollBy({ left: step * parseInt(b.dataset.dir, 10), behavior: 'smooth' });
+      });
+    });
+  });
+
   /* faq accordion */
   document.querySelectorAll('.acc__q').forEach(function (q) {
     q.addEventListener('click', function () { q.parentElement.classList.toggle('open'); });
